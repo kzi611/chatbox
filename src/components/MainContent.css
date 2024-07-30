@@ -1,0 +1,109 @@
+/* MainContent.css */
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content-header {
+    margin-bottom: 20px;
+  }
+  
+  .content-header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .content-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Make sure the relative positioning applies */
+  }
+  
+  .messages {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+    margin-bottom: 10px; /* Adjust margin if needed */
+  }
+  
+  .messages p {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .message-input {
+    display: flex;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0; /* Position it at the bottom */
+    width: 100%; /* Full width of the container */
+    background-color: #fff; /* Ensure the background is consistent */
+  }
+  
+  .message-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+    box-sizing: border-box;
+  }
+  
+  .message-input button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .message-input button:hover {
+    background-color: #0056b3;
+  }
+  
+  .technology-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .technology-options h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .technology-options ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .technology-options li {
+    padding: 15px;
+    margin: 5px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease, background-color 0.2s ease;
+  }
+  
+  .technology-options li:hover {
+    background-color: #e9ecef;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
